@@ -34,9 +34,9 @@ source: https://udel.edu/~os/riddle.html
 
 ## Usage  
 
-[have swi-prolog installed] 
-git clone https://github.com/sandrolovnicki/logic-puzzles.git [or download zip]
-cd logic-puzzles
-swipl
-?- [einstein].
+[have swi-prolog installed]  
+git clone https://github.com/sandrolovnicki/logic-puzzles.git [or download zip]  
+cd logic-puzzles  
+swipl  
+?- [einstein].  
 ?- solution(X).
