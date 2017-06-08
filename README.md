@@ -1,9 +1,12 @@
-Various logic puzzles explained and solved with prolog.
+Various logic puzzles explained and solved with prolog. 
 
-## "Einstein's riddle"  
+# Useful links
+swi-prolog: http://www.swi-prolog.org/
+
+# "Einstein's riddle"  
 source: https://udel.edu/~os/riddle.html 
 
-# The situation
+## The situation
 
 1. There are 5 houses in five different colors.
 2. In each house lives a person with a different nationality.
@@ -11,7 +14,7 @@ source: https://udel.edu/~os/riddle.html
 4. No owners have the same pet, smoke the same brand of cigar or drink the same beverage.
 5. The question is: Who owns the fish?
 
-# Hints
+## Hints
 
 - the Brit lives in the red house
 - the Swede keeps dogs as pets
@@ -28,3 +31,12 @@ source: https://udel.edu/~os/riddle.html
 - the German smokes Prince
 - the Norwegian lives next to the blue house
 - the man who smokes blend has a neighbor who drinks water
+
+## Usage  
+
+[have swi-prolog installed] 
+git clone https://github.com/sandrolovnicki/logic-puzzles.git [or download zip]
+cd logic-puzzles
+swipl
+?- [einstein].
+?- solution(X).
