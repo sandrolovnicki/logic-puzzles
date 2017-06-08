@@ -39,4 +39,4 @@ git clone https://github.com/sandrolovnicki/logic-puzzles.git [or download zip]
 cd logic-puzzles  
 swipl  
 ?- [einstein].  
-?- solution(X).
+?- person(X).
