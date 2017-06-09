@@ -1,4 +1,4 @@
-Various logic puzzles explained and solved with prolog. 
+Various logic puzzles (just one for now) explained and solved with prolog. 
 
 # Useful links
 swi-prolog: http://www.swi-prolog.org/
