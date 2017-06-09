@@ -34,9 +34,8 @@ source: https://udel.edu/~os/riddle.html
 
 ## Usage  
 
-[have swi-prolog installed]  
 git clone https://github.com/sandrolovnicki/logic-puzzles.git [or download zip]  
 cd logic-puzzles  
-swipl  
+swipl [have swi-prolog installed]  
 ?- [einstein].  
 ?- person(X).

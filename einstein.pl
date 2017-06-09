@@ -24,8 +24,7 @@ EXPLANATION:
 
 /*DEFINITION of functions for determining ordered neighbours and general neighbours:************/
 	ordered_neighbours(X,Y,L) :- append(_,[X,Y|_],L).								     /*(N1)*/
-	general_neighbours(X,Y,L) :- ordered_neighbours(X,Y,L);						
-							     ordered_neighbours(Y,X,L).			     				 /*(N2)*/	       
+	general_neighbours(X,Y,L) :- ordered_neighbours(X,Y,L); ordered_neighbours(Y,X,L).	 /*(N2)*/	       
 /************************************************************************************************
 EXPLANATION:
 	ordered_neighbours(X,Y,L).
@@ -91,7 +90,7 @@ solution(Houses) :-
   general_neighbours([_,_,_,blends,_],[_,_,water,_,_],Houses),
   member([_,_,_,_,fish],Houses).
 
-person(X) :-
+fishOwner(X) :-
 	solution(H),
 	member([_,X,_,_,fish],H).
 	
