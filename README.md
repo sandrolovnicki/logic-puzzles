@@ -38,4 +38,4 @@ git clone https://github.com/sandrolovnicki/logic-puzzles.git [or download zip]
 cd logic-puzzles  
 swipl [have swi-prolog installed]  
 ?- [einstein].  
-?- person(X).
+?- fishOwner(X).
